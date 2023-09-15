@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hg42snfhm6ei"
-path="res://.godot/imported/joyknobpng.png-a06382fc1d0b012ce2636b5c4e222d54.ctex"
+path="res://.godot/imported/joyknobpng.png-d7c9cf91c5f377ad8fbeda25296eecf6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/joyknobpng.png"
-dest_files=["res://.godot/imported/joyknobpng.png-a06382fc1d0b012ce2636b5c4e222d54.ctex"]
+source_file="res://Art/joyknobpng.png"
+dest_files=["res://.godot/imported/joyknobpng.png-d7c9cf91c5f377ad8fbeda25296eecf6.ctex"]
 
 [params]
 

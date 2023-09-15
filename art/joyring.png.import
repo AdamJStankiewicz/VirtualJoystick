@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bidhxucp2kd66"
-path="res://.godot/imported/joyring.png-74c809e837be6df29a8452af1523e69f.ctex"
+path="res://.godot/imported/joyring.png-fac39d5eaf09b5c04c0ea0e420512486.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/joyring.png"
-dest_files=["res://.godot/imported/joyring.png-74c809e837be6df29a8452af1523e69f.ctex"]
+source_file="res://Art/joyring.png"
+dest_files=["res://.godot/imported/joyring.png-fac39d5eaf09b5c04c0ea0e420512486.ctex"]
 
 [params]
 

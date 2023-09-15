@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://d20ga7d1n8k7w"]
+
+[ext_resource type="PackedScene" uid="uid://cx7280tv2sx35" path="res://joystick.tscn" id="1_s8jiq"]
+[ext_resource type="Texture2D" uid="uid://dudqyrjsgcu5d" path="res://icon.svg" id="2_0kghb"]
+[ext_resource type="Script" path="res://Player.gd" id="2_nb24u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5bqtj"]
+size = Vector2(129, 129)
+
+[node name="Main" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Joystick" parent="Camera2D" instance=ExtResource("1_s8jiq")]
+position = Vector2(-422, 163)
+scale = Vector2(3, 3)
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("2_nb24u")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+texture = ExtResource("2_0kghb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(-0.5, 0.5)
+shape = SubResource("RectangleShape2D_5bqtj")
